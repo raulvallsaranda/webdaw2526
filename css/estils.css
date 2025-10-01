@@ -1,0 +1,129 @@
+/*Estils web*/
+
+body{
+	background-color:#DDD;
+	font-family:arial;
+	line-height: 35px;
+}
+figure{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width:450px;
+	height:450px;
+	background:repeating-radial-gradient(circle at center,#FF8 0 5%,#000 5% 10%);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	border-radius:60%;
+}
+
+#contenidor{
+	background-color:#FFF;
+	background:linear-gradient(to right, #88F, #F88);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	}
+#cap{
+	width:80%;
+	background:linear-gradient(#88F,#F88);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	border-radius:20px;
+	margin-bottom:5px;
+	}
+#principal{
+	width:80%;
+	background:linear-gradient(#F88,#88F,#F88);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	border-radius:20px;
+	margin-bottom:5px;
+	}
+#peu{
+	width:80%;
+	background:linear-gradient(#F88,#88F);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+		border-radius:20px;
+
+	}
+#cap h1{
+	width:50%;
+	background-color:#F88;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+}
+#principal h2{
+	width:40%;
+	background-color:#8F8;
+	color:red;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:5px;
+	border:solid black 1px;
+}
+#principal ul{
+	background:linear-gradient(white, #F88);
+	list-style-type:square;
+	list-style-position: inside;
+	text-align:justify;
+	margin: 10px auto;
+	width:30%;
+	border: 2px solid red;
+	padding:10px;
+}
+#peu h3{
+	width:50%;
+	background-color:#55F;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+}
+#peu p{
+	width:70%;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:5px;
+	border:solid black 1px;
+	font-weight:bold;
+	background:repeating-linear-gradient(45deg,#F88 0 10%,#88F 10% 20%);
+}
+
+.imatge{
+	width:200px;
+	vertical-align:middle;
+	margin:auto auto;
+	border-radius:100px;
+}
+a{
+	text-decoration:none;
+	font-size:1.5em;
+}
+a:hover{
+	text-decoration:underline;
+}
