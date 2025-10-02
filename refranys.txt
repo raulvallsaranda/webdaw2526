@@ -1,2 +1,3 @@
 00: A casa del meu veí, quan no n'hi ha per a pa, n'hi ha per a vi.
+11: Quan pica la rascassa, plega trastos i cap a casa.
 13: Quien tiene hambre, en pan piensa.
