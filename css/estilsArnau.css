@@ -1,0 +1,132 @@
+/*Estils web*/
+
+body{
+	background-color:#f00505;
+	font-family:arial;
+	line-height: 35px;
+}
+figure{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width:450px;
+	height:450px;
+	background:repeating-radial-gradient(circle at center,rgb(136, 221, 255) 0 5%,#000 5% 10%);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	border-radius:60%;
+}
+
+#contenidor{
+	background-color:#36c60e;
+	background:linear-gradient(to right, rgb(79, 197, 79), rgb(239, 187, 57));
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	}
+#cap{
+	width:80%;
+	background:linear-gradient(rgb(30, 30, 63),rgb(230, 48, 48));
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	border-radius:20px;
+	margin-bottom:5px;
+	}
+#principal{
+	width:80%;
+	background:linear-gradient(rgb(16, 247, 0),rgb(51, 228, 142),rgb(206, 233, 49));
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+	border-radius:20px;
+	margin-bottom:5px;
+	}
+#peu{
+	width:80%;
+	background:linear-gradient(rgb(37, 249, 0),rgb(66, 66, 230));
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+		border-radius:20px;
+
+	}
+#cap h1{
+	width:50%;
+	background-color:rgb(211, 20, 20);
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+}
+#principal h2{
+	width:40%;
+	background-color:rgb(55, 77, 238);
+	color:rgb(52, 255, 65);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:5px;
+	border:solid black 1px;
+}
+#principal ul{
+	background:linear-gradient(white, rgb(0, 255, 51));
+	list-style-type:square;
+	list-style-position: inside;
+	text-align:justify;
+	margin: 10px auto;
+	width:30%;
+	border: 2px solid rgb(225, 255, 0);
+	padding:10px;
+}
+#peu h3{
+	width:50%;
+	background-color:rgb(147, 255, 85);
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:10px;
+	border:solid black 1px;
+}
+#peu p{
+	width:70%;
+	color:rgb(255, 255, 255);
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:5px;
+	border:solid black 1px;
+	font-weight:bold;
+	background:repeating-linear-gradient(45deg,rgb(48, 216, 14) 0 10%,rgb(11, 11, 225) 10% 20%);
+}
+
+.imatge{
+	width:200px;
+	vertical-align:middle;
+	margin:auto auto;
+	border-radius:100px;
+}
+a{
+	text-decoration:none;
+	font-size:1.5em;
+}
+a:hover{
+	text-decoration:underline;
+}
+.logo{
+    width: 100px;
+}
