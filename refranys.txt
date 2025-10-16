@@ -2,12 +2,11 @@
 11: Quan pica la rascassa, plega trastos i cap a casa.
 12: No dejes para mañana lo que puedas hacer hoy.
 13: Quien tiene hambre, en pan piensa.
-21: Si vols saber lo que es pena, arrima el cul a una colmena.
-34: No es oro todo lo que reluce
-22: Menja molt, caga fort i no tingues por a la mort.
-25: No hay mal que por bien no venga.
 14: Cuando el río suena, agua lleva.
 21: Si vols saber lo que es pena, arrima el cul a una colmena.
+22: Menja molt, caga fort i no tingues por a la mort.
+25: No hay mal que por bien no venga.
+34: No es oro todo lo que reluce
 46: El hombre es el ser supremo para el hombre.
 59: Puta la madre puta la hija y puta la manta que las covija.
 77: A caballo regalado, aguas mil, ah no que así no era.
