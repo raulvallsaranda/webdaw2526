@@ -1,7 +1,5 @@
-/*Estils web*/
-
 body{
-	background-color:#b2f6ff;
+	background-color: chocolate;
 	font-family:arial;
 	line-height: 35px;
 }
@@ -11,7 +9,7 @@ figure{
 	align-items:center;
 	width:450px;
 	height:450px;
-	background:repeating-radial-gradient(circle at center,#9AD8D2 0 5%,#48ff66 5% 10%);
+	background:repeating-radial-gradient(circle at center,#FF8 0 5%,#000 5% 10%);
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -21,8 +19,8 @@ figure{
 }
 
 #contenidor{
-	background-color:#91ebff;
-	background:linear-gradient(to right, #a5d3dd, #ffa2a2);
+	background-color:green;
+	background:linear-gradient(to right, rgb(136, 255, 158), rgb(83, 45, 154));
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -31,7 +29,7 @@ figure{
 	}
 #cap{
 	width:80%;
-	background:linear-gradient(#aedda5,#ffa2a2);
+	background:linear-gradient(rgb(2, 2, 253),rgb(131, 66, 66));
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -40,15 +38,9 @@ figure{
 	border-radius:20px;
 	margin-bottom:5px;
 	}
-#caixaFlex{
-	margin:10px auto;
-	width: 60%;
-	display:flex;
-	flex-direction: row;
-}
 #principal{
 	width:80%;
-	background:linear-gradient(#a2ffbb,#dda5a5,#a2ffbb);
+	background:linear-gradient(rgb(2, 231, 235),rgb(17, 17, 190),rgb(39, 37, 38));
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -59,7 +51,7 @@ figure{
 	}
 #peu{
 	width:80%;
-	background:linear-gradient(#FFF8A2,#DDA5D9);
+	background:linear-gradient(rgb(166, 18, 168),rgb(74, 227, 209));
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -68,43 +60,40 @@ figure{
 		border-radius:20px;
 
 	}
-#caixaFlex h1{
-	width:80%;
-	background-color:#FFF8A2;
-	color:red;
+#cap h1{
+	width:50%;
+	background-color:#F88;
+	color:white;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:10px;
 	border:solid black 1px;
 }
-#caixaFlex img:first-child{
-	transform: scaleX(-1);
-}
 #principal h2{
-	width:60%;
-	background-color:rgb(136, 237, 255);
-	color:rgb(120, 0, 0);
+	width:40%;
+	background-color:#8F8;
+	color:red;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:5px;
 	border:solid black 1px;
 }
-#principal h3{
-	width:50%;
-	background-color:#c0ffd6;
-	color:red;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
+#principal ul{
+	background:linear-gradient(rgb(22, 196, 48), rgb(121, 147, 21));
+	list-style-type:square;
+	list-style-position: inside;
+	text-align:justify;
+	margin: 10px auto;
+	width:30%;
+	border: 2px solid red;
 	padding:10px;
-	border:solid black 1px;
 }
 #peu h3{
 	width:50%;
-	background-color:#c0fff0;
-	color:red;
+	background-color:rgb(215, 42, 175);
+	color:white;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -113,14 +102,14 @@ figure{
 }
 #peu p{
 	width:70%;
-	color:rgb(0, 0, 0);
+	color:white;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:5px;
 	border:solid black 1px;
 	font-weight:bold;
-	background:repeating-linear-gradient(45deg,#a2f9ff 0 10%,#a7dda5 10% 20%);
+	background:repeating-linear-gradient(45deg,#F88 0 10%,#88F 10% 20%);
 }
 
 .imatge{
@@ -129,7 +118,10 @@ figure{
 	margin:auto auto;
 	border-radius:100px;
 }
-
-.logo{
-	width:100px;
+a{
+	text-decoration:none;
+	font-size:1.5em;
+}
+a:hover{
+	text-decoration:underline;
 }
