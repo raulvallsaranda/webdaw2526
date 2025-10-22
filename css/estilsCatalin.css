@@ -1,7 +1,5 @@
-/*Estils web*/
-
 body{
-	background-color:#b2f6ff;
+	background-color:#DDD;
 	font-family:arial;
 	line-height: 35px;
 }
@@ -11,32 +9,32 @@ figure{
 	align-items:center;
 	width:450px;
 	height:450px;
-	background:repeating-radial-gradient(circle at center,#9AD8D2 0 5%,#48ff66 5% 10%);
+	background:repeating-radial-gradient(circle at center,#9AD8D2 0 5%,#FFC248 5% 10%);
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:10px;
-	border:solid black 1px;
+	border:solid rgb(219, 11, 11) 1px;
 	border-radius:60%;
 }
 
 #contenidor{
-	background-color:#91ebff;
-	background:linear-gradient(to right, #a5d3dd, #ffa2a2);
+	background-color:#FFF;
+	background:linear-gradient(to right, #DDA5D9, #FFF8A2);
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:10px;
-	border:solid black 1px;
+	border:solid rgb(231, 9, 9) 1px;
 	}
 #cap{
 	width:80%;
-	background:linear-gradient(#aedda5,#ffa2a2);
+	background:linear-gradient(#DDA5D9,#FFF8A2);
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:10px;
-	border:solid black 1px;
+	border:solid rgb(212, 14, 14) 1px;
 	border-radius:20px;
 	margin-bottom:5px;
 	}
@@ -48,12 +46,12 @@ figure{
 }
 #principal{
 	width:80%;
-	background:linear-gradient(#a2ffbb,#dda5a5,#a2ffbb);
+	background:linear-gradient(#FFF8A2,#DDA5D9,#FFF8A2);
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:10px;
-	border:solid black 1px;
+	border:solid rgb(238, 9, 9) 1px;
 	border-radius:20px;
 	margin-bottom:5px;
 	}
@@ -64,7 +62,7 @@ figure{
 	margin-right:auto;
 	text-align:center;
 	padding:10px;
-	border:solid black 1px;
+	border:solid rgb(230, 12, 12) 1px;
 		border-radius:20px;
 
 	}
@@ -83,8 +81,8 @@ figure{
 }
 #principal h2{
 	width:60%;
-	background-color:rgb(136, 237, 255);
-	color:rgb(120, 0, 0);
+	background-color:#8F8;
+	color:red;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -93,7 +91,7 @@ figure{
 }
 #principal h3{
 	width:50%;
-	background-color:#c0ffd6;
+	background-color:#C0DCFF;
 	color:red;
 	margin-left:auto;
 	margin-right:auto;
@@ -103,7 +101,7 @@ figure{
 }
 #peu h3{
 	width:50%;
-	background-color:#c0fff0;
+	background-color:#C0DCFF;
 	color:red;
 	margin-left:auto;
 	margin-right:auto;
@@ -113,14 +111,14 @@ figure{
 }
 #peu p{
 	width:70%;
-	color:rgb(0, 0, 0);
+	color:red;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	padding:5px;
 	border:solid black 1px;
 	font-weight:bold;
-	background:repeating-linear-gradient(45deg,#a2f9ff 0 10%,#a7dda5 10% 20%);
+	background:repeating-linear-gradient(45deg,#FFF8A2 0 10%,#DDA5D9 10% 20%);
 }
 
 .imatge{
